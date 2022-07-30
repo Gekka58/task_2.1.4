@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Ocean1 {
-
     @Autowired
     private Island2 island;
+
 
     @Override
     public String toString() {
